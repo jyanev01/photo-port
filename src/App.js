@@ -1,9 +1,15 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import About from './components/about';
+
 
 function App() {
   return (
     <div className="App">
+      <main>
+        <About></About>
+      </main>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -21,5 +27,7 @@ function App() {
     </div>
   );
 }
+
+
 
 export default App;
